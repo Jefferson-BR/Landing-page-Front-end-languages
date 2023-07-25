@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Assets/CSS/style.css" type="text/css">
+    <title>Demo Landing Page</title>
+</head>
+<body>
+    <!--Menu de Navegação Mobile-->
+    <input type="checkbox" role="button" aria-label="Close menu" id="close-menu" class="close-menu">
+    <label for="close-menu" title="close menu" class="close-menu-label"></label>
+    <!--Menu de Navegação Mobile-->
+
+    <!--Menu de Navegação-->
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked = false;"><a href="#home">Logo</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#artigo">Artigo</a></li>
+                    <li><a href="#complemento">Complemento</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <!--Menu de Navegação-->
+
+    <!--Espaço do topo-->
+    <div class="menu-spacing"></div>
+    <!--Espaço do topo-->
+
+    <!--Section 1-->
+    <section class="inicio main-bg section" id="inicio">
+        <div class="main-content inicio-content">
+        <div class="inicio-container-text">
+            <h2>Artigo sobre HTML,CSS e JAVASCRIPT</h2>
+            
+            <!--Bloco 1-->
+            <p><strong class="orange">HTML:</strong> linguagem de marcação utilizada para estruturar os elementos da página, como parágrafos, links, títulos, tabelas, imagens e até vídeos.<br></p>
+
+            <!--Bloco 2-->
+            <p><strong class="blue">CSS:</strong> linguagem de estilos utilizada para definir cores, fontes, tamanhos, posicionamento e qualquer outro valor estético para os elementos da página.<br></p>
+
+            <!--Bloco 3-->
+            <p><strong class="yellow">Javascript:</strong> linguagem de programação utilizada para deixar a página com mais movimento, podendo atualizar elementos dinamicamente e lidar melhor com dados enviados e recebidos na página.</p>
+        </div>
+        <div class="inicio-img">
+            <img src="Assets/IMG/javascript.svg" alt="Logo Html,Css e JavaScript">
+        </div>
+    </div>
+    </section>
+    <!--Section 1-->
+
+    <!--Section 2-->
+    <section class="white-bg section" id="artigo">
+        <div class="main-content artigo-content">
+            <h2>Um pouco sobre cada uma das linguagens Front-End</h2>
+            <p>
+                HTML - é a abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcação de Hipertexto. O HTML define o que vai em cima, o que é texto, o que é coluna, o que é imagem. Ele estrutura muito bem a página com início, meio e fim. Ou, se preferir, head, body e footer (cabeça, corpo e pé).
+            </p>
+            <p>
+                CSS - Cascading Style Sheets – é um mecanismo para adicionar estilo coo cores, fontes, espaçamento, entre outras a um documento web. Em vez de colocar a formatação dentro do documento, o CSS cria um link para uma página que contém os estilos. O CSS, Ele dá atratividade à sua criação web. Mas ainda deixa a página engessada, pois não pode dar movimento.
+            </p>
+            <p>
+                JavaScript - é uma linguagem de programação criada para ser parte dos navegadores web, para que scripts possam ser executados do lado do cliente e interajam com o usuário sem a necessidade deste script passar pelo servidor, controlando o navegador, realizando comunicação assíncrona e alterando o conteúdo do documento exibido.
+            </p>
+        </div>
+    </section>
+    <!--Section 2-->
+
+    <!--Section 3-->
+    <section class="grid-one main-bg section" id="complemento">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Ponto forte de cada uma</h2>
+            <p class="grid-description">Uma breve descrição [...]</p>
+            <div class="grid">
+                <article>
+                    <h3>HTML</h3>
+                    <p class="padding">
+                        Ponto forte: A simplicidade e a facilidade de aprendizado do HTML são pontos fortes dessa linguagem. Com uma sintaxe simples e intuitiva, é possível criar a estrutura básica de uma página web de forma rápida e eficiente.
+                    </p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p class="padding">
+                        Ponto forte: A capacidade de personalização e estilização de elementos HTML é o grande destaque do CSS. Com ele, é possível criar layouts complexos, aplicar diferentes estilos visuais, ajustar cores, tamanhos e espaçamentos, proporcionando um design único e atraente para um site.
+                    </p>
+                </article>
+                <article>
+                    <h3>JAVASCRIPT</h3>
+                    <p class="padding">
+                        Ponto forte: A versatilidade e a capacidade de interatividade do JavaScript são os pontos fortes dessa linguagem. Com o JS, é possível adicionar comportamentos dinâmicos às páginas web, criar animações, fazer validações de formulários, manipular elementos da página em tempo real e até mesmo criar aplicativos web completos.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <!--Section 3-->
+
+    <!--Section 4-->
+    <section class="section white-bg" id="galeria">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p>Uma breve Descrição[...]</p>
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="Assets/IMG/HTML coding background.jpg" alt="Imagem 2 código HTML5">
+                </div>
+                <div class="gallery-img">
+                    <img src="Assets/IMG/CSS coding background.jpg" alt="Imagem código CSS3">
+                </div>
+                <div class="gallery-img">
+                    <img src="Assets/IMG/JavaScript coding background.jpg" alt="Imagem código JavaScript">
+                </div>
+                <div class="gallery-img">
+                    <img src="Assets/IMG/HTML coding.jpg" alt="Imagem 2 código HTML5">
+                </div>
+                <div class="gallery-img">
+                    <img src="Assets/IMG/CSS coding.jpg" alt="Imagem 2 código CSS3">
+                </div>
+                <div class="gallery-img">
+                    <img src="Assets/IMG/JS coding.jpg" alt="Imagem 2 código JavaScript">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Section 4-->
+
+    <!--Section 5-->
+    <section class="white-bg section" id="pricing">
+        <div class="responsive-table">
+        <table>
+            <caption>Pricing table</caption>
+
+            <thead>
+                <tr>
+                    <th>Title 1</th>
+                    <th>Title 2</th>
+                    <th>Title 3</th>
+                    <th>Title 4</th>
+                    <th>Title 5</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+                <tr>
+                    <td>Content 1</td>
+                    <td>Content 2</td>
+                    <td>Content 3</td>
+                    <td>Content 4</td>
+                    <td>Content 5</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="5">Footer table</td>
+                </tr>
+            </tfoot>
+        </table>
+        </div>
+    </section>
+    <!--Section 5-->
+
+    <!--Section 5 (Continuação...)-->
+    <section class="main-bg section" id="contato">
+        <div class="form-content form-end-content">
+        <div class="inicio-container-text">
+            <h2>Contact US</h2>
+            <p>Com HTML e CSS é possível criar formulários para fornecer suporte ao cliente e também personalizar o design para que ele se torne mais atrativo aos usuários.</p>
+        </div>
+            <div class="inicio-img">
+                <img src="Assets/IMG/Contact-us.svg" alt="Imagem ilustração de desenho do suporte">
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend>Suporte de Contato</legend>
+                    <div class="form-group">
+                        <label for="first-name">Primeiro nome: </label>
+                        <input type="text" name="first-name" id="first-name" autocomplete="on" required placeholder="Nome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome: </label>
+                        <input type="text" name="last-name" id="last-name" autocomplete="on" required placeholder="Sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail: </label>
+                        <input type="email" name="email" id="email" autocomplete="on" required placeholder="E-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem</label>
+                        <textarea name="message" id="message" cols="30" rows="10" required placeholder="Escreva sua mensagem"></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Enviar
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                       </button>
+                    </div>
+                </fieldset>        
+            </div>
+        </div>
+    </div>
+    </section>
+    <!--Section 5-->
+
+    <!--Footer-->
+    <footer id="footer" class="footer white-bg">
+        <p>Site Criado por <a href="" rel="nofollow" target="_blank">&copy;Jefferson Barbosa</a></p>
+    </footer>
+    <!--Footer-->
+</body>
+</html>
