@@ -452,6 +452,16 @@ body .full-width{
         margin-left: 1rem;
     }
 }
+@media screen and (width: 280px){
+    table, .responsive-table{
+        visibility: hidden;
+        overflow-x: hidden;
+    }
+}@media screen and (width: 280px) and (orientation: landscape){
+    table{
+        visibility: visible;
+    }
+}
 @media (orientation: landscape){
     table caption{
         font-size: 1.5rem;
